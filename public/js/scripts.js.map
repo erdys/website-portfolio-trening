@@ -1,0 +1,1 @@
+{"version":3,"file":"js/scripts.js","mappings":"AACAA,QAAQC,IADQ,OAEhBD,QAAQC,IAAIC,aACZF,QAAQC,IAAIC","sources":["webpack://boostrap5-template-webpack/./src/main.js"],"sourcesContent":["const testowa = \"bbb\";\nconsole.log(testowa);\nconsole.log(process.env.LOCAL_HOST);\nconsole.log(process.env.PORT);\n"],"names":["console","log","process"],"sourceRoot":""}
