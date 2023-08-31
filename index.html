@@ -5,10 +5,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack - starter boilerplate</title>
+    <title>Training Portfolio Website</title>
 </head>
 
 <body>
+
+    <header id="header" class="container header-page">
+        <h1>Logo</h1>
+        <ul class="nav nav-main">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </header>
+
+    <section class="container-fluid">
+        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h2 class="title title-big">Creative Design</h2>
+        <div class="mt-1 center-hld">
+            <a href="#" class="btn btn-primary">Get a Quote</a>
+        </div>
+        <div class="image-hld">
+            <img src="/image/header_1.webp">
+        </div>
+        <div class="image-hld">
+            <img src="/image/header_2.webp">
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="title title-normal">Portfolio</h2>
+        <div class="grid portfolio">
+            <img src="/image/portfolio_1.webp">
+            <img src="/image/portfolio_4.webp">
+            <img src="/image/portfolio_5.webp">
+            <img src="/image/portfolio_2.webp">
+            <img src="/image/portfolio_3.webp">
+            <img src="/image/portfolio_6.webp">
+        </div>
+
+    </section>
+
+    <section class="container text-content">
+        <h2 class="title title-normal">About</h2>
+        <p>We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>After 10 years of experience Lorem ipsum dolor sit amet, consectetur adipiscing elit.We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="image-hld">
+            <img src="/image/about.webp">
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="title title-normal">Testimonials</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="grid testimonials">
+            <div class="block-1">
+                <div class="image-hld">
+                    <img src="/image/testimonials_1.webp">
+                </div>
+                <div class="data">
+                    <h3 class="title">“Amazing Team with Lorem Ipsum”</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p><a href="#" class="link link-arrrow">See full review</a>
+                </div>
+            </div>
+            <div class="block-2">
+                <div class="image-hld">
+                    <img src="/image/testimonials_3.webp">
+                </div>
+                <div class="data">
+                    <h3 class="title">“Big Dreams for lorem ipsum”</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
+                    <a href="#" class="link link-arrow">
+
+                        <svg width="34" height="30" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <span class="label">See full review</span>
+                            <g filter="url(#filter0_d_3_76)">
+                                <path d="M4.64062 11.0689H27.6478M27.6478 11.0689L20.2648 1.35352M27.6478 11.0689L20.2648 20.7844" stroke="white" stroke-width="2.18959" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_3_76" x="0.640625" y="0.690918" width="32.3822" height="28.7559" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="4" />
+                                    <feGaussianBlur stdDeviation="2" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_76" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_76" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="block-3">
+                <div class="image-hld">
+                    <img src="/image/testimonials_2.webp">
+                </div>
+                <div class="data">
+                    <h3 class="title">“Good Dreams for lorem ipsum”</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p><a href="#" class="link link-arrrow">See full review </a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-2 center-hld">
+            <a href="#" class="btn btn-outline">See All Reviews</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="title title-normal">Contact</h2>
+        <form class="form-contact">
+            <div class="row">
+                <label for="FormControlName" class="form-label">Name</label>
+                <input id="FormControlName" class="form-control" type="text">
+            </div>
+            <div class="row">
+                <label for="FormControlEmail" class="form-label">Email</label>
+                <input id="FormControlEmail" class="form-control" type="email">
+            </div>
+            <div class="row">
+                <label for="FormControlMessage" class="form-label">Message</label>
+                <textarea id="FormControlMessage" class="form-control" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <footer id="footer" class="container footer-page">
+        <p class="copyright">2022 Company</p>
+        <ul class="nav nav-bottom">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
