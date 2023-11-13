@@ -1,6 +1,6 @@
 # Training Portfolio Website (SASS & Webpack)
 
-Training portfolio website made in SASS and using Webpack. Project by Temal Design available at [Figma](https://www.figma.com/community/file/1124239439100231789).
+Training portfolio website made in SASS and using Webpack without a front-end CSS framework like Bootstrap, Tailwind. Project by Temal Design available at [Figma](https://www.figma.com/community/file/1124239439100231789).
 
 ## Quick Start
 
@@ -26,4 +26,8 @@ The `.env.sample` file should contain all the variables that your application ne
 
 ## TO DO!
 
--   [ ] Create a first outline
+-   [x] Create a first outline
+-   [x] Add animation to button, nav
+-   [x] Focus on input
+-   [ ] Hamburger menu
+-   [ ] Adding a responsive view
