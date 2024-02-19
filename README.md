@@ -2,6 +2,8 @@
 
 Training portfolio website made in SASS and using Webpack without a front-end CSS framework like Bootstrap, Tailwind. Project by Temal Design available at [Figma](https://www.figma.com/community/file/1124239439100231789).
 
+The demo is available [here](https://www.berdychowski.com/demo/website-portfolio-trening).
+
 ## Quick Start
 
 ```bash
